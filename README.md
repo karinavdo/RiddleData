@@ -1,7 +1,7 @@
 # RiddleData
 ## Dataset from the Riddle of Literary Quality Project
 
-**Authors:** Maciej Eder, Joris van Zundert, Karina van Dalen-Oskam, Joris van Zundert, Saskia Lensink<br/>
+**Authors:** Maciej Eder, Joris van Zundert, Karina van Dalen-Oskam, Saskia Lensink<br/>
 **License:** [GPL-3](https://opensource.org/licenses/GPL-3.0)
 
 This dataset contains the data of a reader survey about fiction in Dutch, a description of the novels the readers rated, and the results of stylistic measurements of the novels. 
@@ -16,7 +16,7 @@ If you prefer citing a publication, please either of these:
 
 Maciej Eder, Lensink, S., Van Zundert, J.J., and Van Dalen-Oskam, K.H. (2022). “Replicating The Riddle of Literary Quality: The LitRiddle Package for R.” In _Digital Humanities 2022 Conference Abstracts_, 636–637. Tokyo: The University of Tokyo / DH2022 Local Organizing Committee. https://dh2022.dhii.asia/abstracts/163.
 
-Karina van Dalen-Oskam (2021). _Het raadsel literatuur. Is literaire kwaliteit meetbaar?_ Amsterdam University Press.
+Karina van Dalen-Oskam (2023). _The Riddle of Literary Quality: A Computational Approach._ Amsterdam University Press.
 
 ## The Data
 
@@ -146,53 +146,55 @@ Education level, containing 8 levels:
     6. "HBO" 
     7. "university" 
     8. "NA" 
-6.	**books.per.year** \
+6.	**education.english** \
+English translation of education levels.
+7.	**books.per.year** \
 Number of books read per year by each respondent;
-7.	**typically.reads** \
+8.	**typically.reads** \
 Typical genre of books that a respondent reads, with three levels a) Fiction; b) Non-fiction;c) both;
-8.	**how.literary** \
+9.	**how.literary** \
 Answer to the question 'How literary a reader do you consider yourself to be?', where respondents could fill in a number from 1 - 7, with 1 meaning 'not literary at all' and 7 meaning 'very literary';
-9.	**s.4a1** \
+10.	**s.4a1** \
 Answer to the question: 'I like reading novels that I can relate to my own life'. Scale from 1 - 5, with 1 meaning 'completely disagree', and 5 meaning 'completely agree';
-10.	**s.4a2** \
+11.	**s.4a2** \
 Answer to the question: 'The story of a novel is what matters most to me'. Scale from 1 - 5; 
-11.	**s.4a3** \
+12.	**s.4a3** \
 Answer to the question: 'The writing style in a book is important to me'. Scale from 1 - 5;
-12.	**s.4a4** \
+13.	**s.4a4** \
 Answer to the question: 'I like searching for deeper layers in a novel'. Scale from 1 - 5;
-13.	**s.4a5** \
+14.	**s.4a5** \
 Answer to the question: 'I like reading literature'. 
 Scale from 1 - 5;
-14.	**s.4a6** \
+15.	**s.4a6** \
 Answer to the question: 'I read novels to discover new worlds and unknown time periods'. Scale from 1 - 5;
-15.	**s.4a7** \
+16.	**s.4a7** \
 Answer to the question: 'I mostly read novels during my vacation'. Scale from 1 - 5;
-16.	**s.4a8** \
+17.	**s.4a8** \
 Answer to the question: 'I usually read several novels at the same time'. Scale from 1 - 5;
-17.	**s.12b1** \
+18.	**s.12b1** \
 Answer to the question: 'I like novels based on real events'. Scale from 1 - 5;
-18.	**s.12b2** \
+19.	**s.12b2** \
 Answer to the question: 'I like thinking about a novel's structure'. Scale from 1 - 5;
-19.	**s.12b3** \
+20.	**s.12b3** \
 Answer to the question: 'The writing style in a novel is of more importance to me than its story'. 
 Scale from 1 - 5;
-20.	**s.12b4** \
+21.	**s.12b4** \
 Answer to the question: 'I like to get carried away by a novel'. Scale from 1 - 5;
-21.	**s.12b5** \
+22.	**s.12b5** \
 Answer to the question: 'I like to pick my books from the top 10 list of best sold books'. Scale from 1 - 5;
-22.	**s.12b6** \
+23.	**s.12b6** \
 Answer to the question: 'I read novels to be challenged intellectually'. Scale from 1 - 5;
-23.	**s.12b7** \
+24.	**s.12b7** \
 Answer to the question: 'I love novels that are easy to read'. Scale from 1 - 5;
-24.	**s.12b8** \
+25.	**s.12b8** \
 Answer to the question: 'In the evening, I prefer to read books over watching TV'. Scale from 1 - 5;
-25.	**remarks.survey** \
+26.	**remarks.survey** \
 Any additional remarks that respondents filled in at the end of the survey;
-26.	**date.time** \
+27.	**date.time** \
 Date and time of the moment a respondent filled in the survey, format in YYYY-MM-DD HH:MM:SS;
-27.	**week.nr** \
+28.	**week.nr** \
 Number of week in which the respondent filled in the survey;
-28.	**day** \
+29.	**day** \
 Day of the week in which the respondent filled in the survey.
 
 
